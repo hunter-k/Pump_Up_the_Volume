@@ -1,0 +1,114 @@
+#cir1 {
+  background-image: url('image/adam.JPG');
+  border-radius: 100%;
+  position: absolute;
+
+
+    -webkit-animation-name: spin;
+   -webkit-animation-duration: 4000ms;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-timing-function: linear;
+   -moz-animation-name: spin;
+   -moz-animation-duration: 4000ms;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-timing-function: linear;
+   -ms-animation-name: spin;
+   -ms-animation-duration: 4000ms;
+   -ms-animation-iteration-count: infinite;
+   -ms-animation-timing-function: linear;
+
+   animation-name: spin;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+
+
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#cir2 {   background-image: url('image/adam.JPG');
+  border-radius: 100%;
+  position: absolute;
+
+
+    -webkit-animation-name: spinrev;
+   -webkit-animation-duration: 4000ms;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-timing-function: linear;
+   -moz-animation-name: spinrev;
+   -moz-animation-duration: 4000ms;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-timing-function: linear;
+   -ms-animation-name: spinrev;
+   -ms-animation-duration: 4000ms;
+   -ms-animation-iteration-count: infinite;
+   -ms-animation-timing-function: linear;
+
+   animation-name: spinrev;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+
+
+}
+
+@-ms-keyframes spinrev {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spinrev {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spinrev {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spinrev {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+
+body {
+  background-image: url("https://i.ytimg.com/vi/Dt7LZA1GutU/maxresdefault.jpg");
+  background-size: 100%;
+}
+
+#inputForm{
+  position: fixed;
+  background-color: grey;
+  border-radius: 5px;
+  width: 225px;
+  text-align: center;
+  z-index: 999;
+  padding-bottom: 5px;
+}
+
+#rad {
+  text-align: right;
+  width: 50px;
+}
